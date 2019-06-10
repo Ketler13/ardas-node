@@ -1,0 +1,22 @@
+{
+  "name": "ardas-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ketler13/ardas-node.git"
+  },
+  "author": "Ketler13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ketler13/ardas-node/issues"
+  },
+  "homepage": "https://github.com/Ketler13/ardas-node#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
