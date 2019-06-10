@@ -1,0 +1,12 @@
+1. Create utility for storing file in filesystem.
+   Command 'file.txt This is content of file' must create file.txt with content 'This is content of file'.
+   Command 'path/to/file.txt This is content of file' must create file in
+   - path
+     - to
+       file.txt
+   If some directories are not existed, create them.
+2. Create simple http server for getting files.
+   GET request localhost:3000/file.txt must print content of file.txt.
+   GET request localhost:3000/path/to/file.txt must print content of file.txt.
+   If file is not found on path, return 404 error.
+   If path contains some illegal symbols(.., *, ^ etc.) return 400 error.
