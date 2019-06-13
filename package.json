@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Ketler13/ardas-node#readme",
   "devDependencies": {
     "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "mime": "^2.4.4"
   }
 }
