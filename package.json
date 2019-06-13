@@ -20,6 +20,7 @@
     "nodemon": "^1.19.1"
   },
   "dependencies": {
-    "mime": "^2.4.4"
+    "mime": "^2.4.4",
+    "morse": "^0.1.0"
   }
 }
