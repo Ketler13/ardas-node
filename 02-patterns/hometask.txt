@@ -1,0 +1,1 @@
+Create app that uses 2 patterns from lecture (mediator + strategy, builder + proxy etc.).
