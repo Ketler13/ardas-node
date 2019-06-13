@@ -2,7 +2,7 @@ const Logger = require("./Logger");
 const Developer = require("./Developer");
 const ModernFrameworks = require("./ModernFrameworks");
 
-const logger = new Logger();
+const logger = new Logger().getInstance();
 
 logger.log("starting app...");
 

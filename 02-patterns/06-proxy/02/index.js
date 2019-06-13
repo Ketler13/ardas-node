@@ -3,7 +3,7 @@ const FsProxy = require("./fsProxy");
 
 const fs = new FsProxy(require("fs"));
 
-// const txtFile = path.join(__dirname, "Readme.txt");
+const txtFile = path.join(__dirname, "Readme.txt");
 const mdFile = path.join(__dirname, "Readme.md");
 
 const result = (error, contents) => {
@@ -17,5 +17,5 @@ const result = (error, contents) => {
   console.log(contents);
 };
 
-// fs.readFile(txtFile, "UTF-8", result);
+fs.readFile(txtFile, "UTF-8", result);
 fs.readFile(mdFile, "UTF-8", result);

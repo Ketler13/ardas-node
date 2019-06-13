@@ -1,6 +1,6 @@
 const Logger = require("./Logger");
 
-const logger = new Logger();
+const logger = new Logger().getInstance();
 
 class ModernFrameworks {
   constructor(name, items = []) {

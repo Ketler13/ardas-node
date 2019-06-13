@@ -1,9 +1,9 @@
-const Store = require('./Store');
-const inventory = require('./inventory');
+const Store = require("./Store");
+const inventory = require("./inventory");
 
-const skiShop = new Store('Steep and Deep', inventory);
+const skiShop = new Store("Steep and Deep", inventory);
 
-const searchItem = 'powder skis';
+const searchItem = "redbull";
 const results = skiShop.find(searchItem);
 
-console.log( results );
+console.log(results);
