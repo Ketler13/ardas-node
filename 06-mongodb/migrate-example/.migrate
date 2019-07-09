@@ -1,0 +1,9 @@
+{
+  "lastRun": null,
+  "migrations": [
+    {
+      "title": "1562603859322-add-cards.js",
+      "timestamp": null
+    }
+  ]
+}
