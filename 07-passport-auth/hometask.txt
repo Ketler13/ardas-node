@@ -1,0 +1,2 @@
+Add ability to register and authorize users.
+All data should be available only for authorized users.

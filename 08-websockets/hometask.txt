@@ -1,0 +1,2 @@
+Support real-time cards editing (if card is being moved to other column in
+one browser, it should be moved in all connected browsers/tabs)
