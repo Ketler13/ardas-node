@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run clean-public && npm run build-public && node index.js",
+    "build-public": "mkdir -p public/js && browserify public/index.js > public/js/index.js",
+    "clean-public": "rimraf public/js/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^2.8.0",
+    "session": "^0.1.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "socket.io-redis": "^5.2.0",
+    "socketio-auth": "^0.1.1"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3"
+  }
+}
